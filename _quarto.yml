@@ -9,8 +9,8 @@ execute:
 website:
   title: "Community Engaged Statistics and Data Science (CESDS)"
   description: "Website about training, plannning, and implementation of community engaged statistics and data courses."
-  site-url: https://community-engaged-stats-ds.github.io/CESDS_website/about.html          # replace
-  repo-url: https://github.com/Community-Engaged-Stats-DS/CESDS_website  # replace
+  site-url: https://community-engaged-stats-ds.github.io/CESDS_website/about.html 
+  repo-url: https://github.com/Community-Engaged-Stats-DS/CESDS_website 
 
   #favicon: assets/favicon.png
   open-graph: true
@@ -36,12 +36,12 @@ website:
       - href: book.qmd
         text: Handbook
       - icon: github
-        href: https://github.com/you/repo
+        href: https://github.com/Community-Engaged-Stats-DS/CESDS_website
         aria-label: "Source on GitHub"
 
   page-footer:
     border: true
-    left: "Built with [Quarto](https://quarto.org)"
+    left: 'Built with [Quarto](https://quarto.org) and <span class="bi bi-heart-fill"></span>'
     # right:
     #   - text: "License"
     #     href: license.qmd

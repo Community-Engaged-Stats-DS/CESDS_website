@@ -8,13 +8,38 @@ Courses that use/build statistics and data science skills to co-create sustainab
 
 ### Who are we?
 
-::: {.people layout-ncol=2}
-![[Dr. Claire Kelling, Carleton College](https://www.clairekelling.com/)](imgs/headshots/claire_kelling.png)
+::: {.grid .people}
 
-![[Dr. Emily Robinson, CalPoly](https://statistics.calpoly.edu/Emily-Robinson)](imgs/headshots/emily_robinson.jpg)
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/claire_kelling.png){fig-alt="Dr. Claire Kelling"}
 
-![[Dr. Laurie Baker, Bates College](https://lauriebaker.rbind.io/)](imgs/headshots/laurie_baker.jpg)
+{{< fa user >}} **[Dr. Claire Kelling](https://www.clairekelling.com/)**  
+{{< fa building-columns >}} Carleton College  
+{{< fa envelope >}} [ckelling@carleton.edu](mailto:ckelling@carleton.edu)
+:::
 
-![[Dr. Tyler George, Cornell College](https://stats-tgeorge.github.io/personal_website/)](imgs/headshots/tyler_george.png)
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/emily_robinson.jpg){fig-alt="Dr. Emily Robinson"}
+
+{{< fa user >}} **[Dr. Emily Robinson](https://statistics.calpoly.edu/Emily-Robinson)**  
+{{< fa building-columns >}} Cal Poly  
+{{< fa envelope >}} [erobin17@calpoly.edu](mailto:erobin17@calpoly.edu)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/laurie_baker.jpg){fig-alt="Dr. Laurie Baker"}
+
+{{< fa user >}} **[Dr. Laurie Baker](https://lauriebaker.rbind.io/)**  
+{{< fa building-columns >}} Bates College  
+{{< fa envelope >}} [lbaker@bates.edu](mailto:lbaker@bates.edu)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/tyler_george.png){fig-alt="Dr. Tyler George"}
+
+{{< fa user >}} **[Dr. Tyler George](https://stats-tgeorge.github.io/personal_website/)**  
+{{< fa building-columns >}} Cornell College  
+{{< fa envelope >}} [tgeorge@cornellcollege.edu](mailto:tgeorge@cornellcollege.edu)
+:::
 
 :::
