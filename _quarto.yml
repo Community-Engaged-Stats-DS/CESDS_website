@@ -60,7 +60,7 @@ format:
     smooth-scroll: true
     citations-hover: true
     footnotes-hover: true
-    lightbox: true
+    lightbox: false
 
     link-external-newwindow: true
     link-external-icon: true

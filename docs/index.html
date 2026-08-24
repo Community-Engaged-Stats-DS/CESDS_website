@@ -48,9 +48,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-25927f114cbd3f00f26be07ce7058873.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": true,
@@ -165,25 +162,25 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="who-are-we">Who are we?</h3>
 <div class="grid people">
 <div class="g-col-12 g-col-md-6">
-<p><a href="imgs/headshots/claire_kelling.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="imgs/headshots/claire_kelling.png" class="img-fluid" alt="Dr. Claire Kelling"></a></p>
+<p><img src="imgs/headshots/claire_kelling.png" class="img-fluid" alt="Dr. Claire Kelling"></p>
 <p><i class="fa-solid fa-user" aria-label="user"></i> <strong><a href="https://www.clairekelling.com/">Dr.&nbsp;Claire Kelling</a></strong><br>
 <i class="fa-solid fa-building-columns" aria-label="building-columns"></i> Carleton College<br>
 <i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:ckelling@carleton.edu">ckelling@carleton.edu</a></p>
 </div>
 <div class="g-col-12 g-col-md-6">
-<p><a href="imgs/headshots/emily_robinson.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="imgs/headshots/emily_robinson.jpg" class="img-fluid" alt="Dr. Emily Robinson"></a></p>
+<p><img src="imgs/headshots/emily_robinson.jpg" class="img-fluid" alt="Dr. Emily Robinson"></p>
 <p><i class="fa-solid fa-user" aria-label="user"></i> <strong><a href="https://statistics.calpoly.edu/Emily-Robinson">Dr.&nbsp;Emily Robinson</a></strong><br>
 <i class="fa-solid fa-building-columns" aria-label="building-columns"></i> Cal Poly<br>
 <i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:erobin17@calpoly.edu">erobin17@calpoly.edu</a></p>
 </div>
 <div class="g-col-12 g-col-md-6">
-<p><a href="imgs/headshots/laurie_baker.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="imgs/headshots/laurie_baker.jpg" class="img-fluid" alt="Dr. Laurie Baker"></a></p>
+<p><img src="imgs/headshots/laurie_baker.jpg" class="img-fluid" alt="Dr. Laurie Baker"></p>
 <p><i class="fa-solid fa-user" aria-label="user"></i> <strong><a href="https://lauriebaker.rbind.io/">Dr.&nbsp;Laurie Baker</a></strong><br>
 <i class="fa-solid fa-building-columns" aria-label="building-columns"></i> Bates College<br>
 <i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:lbaker@bates.edu">lbaker@bates.edu</a></p>
 </div>
 <div class="g-col-12 g-col-md-6">
-<p><a href="imgs/headshots/tyler_george.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="imgs/headshots/tyler_george.png" class="img-fluid" alt="Dr. Tyler George"></a></p>
+<p><img src="imgs/headshots/tyler_george.png" class="img-fluid" alt="Dr. Tyler George"></p>
 <p><i class="fa-solid fa-user" aria-label="user"></i> <strong><a href="https://stats-tgeorge.github.io/personal_website/">Dr.&nbsp;Tyler George</a></strong><br>
 <i class="fa-solid fa-building-columns" aria-label="building-columns"></i> Cornell College<br>
 <i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:tgeorge@cornellcollege.edu">tgeorge@cornellcollege.edu</a></p>
@@ -615,38 +612,6 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
