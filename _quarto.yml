@@ -9,8 +9,8 @@ execute:
 website:
   title: "Community Engaged Statistics and Data Science (CESDS)"
   description: "Website about training, plannning, and implementation of community engaged statistics and data courses."
-  site-url: https://example.org          # replace
-  repo-url: https://github.com/you/repo  # replace
+  site-url: https://community-engaged-stats-ds.github.io/CESDS_website/about.html          # replace
+  repo-url: https://github.com/Community-Engaged-Stats-DS/CESDS_website  # replace
 
   #favicon: assets/favicon.png
   open-graph: true
@@ -29,7 +29,7 @@ website:
   navbar:
     pinned: true
     right:
-      - href: about.qmd
+      - href: index.qmd
         text: About
       - href: activity.qmd
         text: Activity

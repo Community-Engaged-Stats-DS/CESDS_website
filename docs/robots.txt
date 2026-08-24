@@ -1,1 +1,1 @@
-Sitemap: https://example.org/sitemap.xml
+Sitemap: https://community-engaged-stats-ds.github.io/CESDS_website/about.html/sitemap.xml

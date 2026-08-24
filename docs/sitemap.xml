@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.org/activity.html</loc>
+    <loc>https://community-engaged-stats-ds.github.io/CESDS_website/about.html/activity.html</loc>
     <lastmod>2026-08-24T18:39:06.716Z</lastmod>
   </url>
   <url>
-    <loc>https://example.org/book.html</loc>
+    <loc>https://community-engaged-stats-ds.github.io/CESDS_website/about.html/book.html</loc>
     <lastmod>2026-08-24T18:22:23.611Z</lastmod>
   </url>
   <url>
-    <loc>https://example.org/about.html</loc>
-    <lastmod>2026-08-24T18:50:45.733Z</lastmod>
+    <loc>https://community-engaged-stats-ds.github.io/CESDS_website/about.html/index.html</loc>
+    <lastmod>2026-08-24T18:57:12.325Z</lastmod>
   </url>
 </urlset>
