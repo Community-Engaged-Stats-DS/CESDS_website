@@ -1,0 +1,89 @@
+/*-- scss:defaults --*/
+/*written by claude initially*/
+
+// Literal hex only in this layer — $brand-* vars aren't defined yet here.
+
+$grid-body-width:   860px;
+$font-size-root:    17px;
+$line-height-base:  1.7;
+$border-color:      #E4DACA;
+
+// Chrome that _brand.yml doesn't reach
+$navbar-bg:   #FDFBF6;
+$navbar-fg:   #2A2622;
+$navbar-hl:   #0072B2;
+$sidebar-bg:  #FDFBF6;
+$sidebar-hl:  #0072B2;
+$footer-bg:   #F1E9DC;
+$footer-fg:   #6B6058;
+
+// Callouts otherwise use Bootstrap colors that clash with Okabe-Ito
+$callout-color-note:       #0072B2;
+$callout-color-tip:        #009E73;
+$callout-color-important:  #D55E00;
+$callout-color-caution:    #CC79A7;
+$callout-color-warning:    #E69F00;
+
+
+/*-- scss:rules --*/
+
+.people img {
+  width: 65%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 6px;
+}
+
+.people figcaption {
+  font-size: 1.1rem;
+  line-height: 1.35;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+
+// Body is Newsreader via _brand.yml; navigation and data stay sans.
+.navbar,
+.sidebar,
+#TOC,
+main table,
+figcaption {
+  font-family: "Public Sans", sans-serif;
+}
+
+// Section break above the heading instead of an underline below it.
+main h2 {
+  border-bottom: none;
+  border-top: 1px solid $brand-rule;
+  padding-top: 1.4rem;
+  margin-top: 2.6rem;
+}
+
+main table thead th {
+  border-bottom: 1.5px solid $brand-ink;
+}
+
+// Signature: the five chart colors as a band under the navbar.
+// Delete this block if you don't want it — nothing else depends on it.
+.navbar {
+  border-bottom: 1px solid $brand-rule;
+  box-shadow: none;
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    $brand-blue        0    20%,
+    $brand-green       20%  40%,
+    $brand-vermillion  40%  60%,
+    $brand-purple      60%  80%,
+    $brand-orange      80%  100%
+  );
+}

@@ -1,0 +1,81 @@
+project:
+  type: website
+  output-dir: docs
+  execute-dir: project
+
+execute:
+  freeze: auto      
+
+website:
+  title: "Community Engaged Statistics and Data Science (CESDS)"
+  description: "Website about training, plannning, and implementation of community engaged statistics and data courses."
+  site-url: https://example.org          # replace
+  repo-url: https://github.com/you/repo  # replace
+
+  #favicon: assets/favicon.png
+  open-graph: true
+  #twitter-card: true
+
+  #reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
+
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+
+  navbar:
+    pinned: true
+    right:
+      - href: about.qmd
+        text: About
+      - href: activity.qmd
+        text: Activity
+      - href: book.qmd
+        text: Handbook
+      - icon: github
+        href: https://github.com/you/repo
+        aria-label: "Source on GitHub"
+
+  page-footer:
+    border: true
+    left: "Built with [Quarto](https://quarto.org)"
+    # right:
+    #   - text: "License"
+    #     href: license.qmd
+
+format:
+  html:
+    theme: [brand, custom.scss]
+
+    toc: false
+    page-layout: full
+    toc-location: right
+    toc-depth: 3
+    toc-expand: 2
+
+    anchor-sections: true
+    smooth-scroll: true
+    citations-hover: true
+    footnotes-hover: true
+    lightbox: auto
+
+    link-external-newwindow: true
+    link-external-icon: true
+
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    highlight-style: arrow
+
+    fig-format: svg
+    fig-width: 7
+    fig-height: 4.5
+    fig-align: center
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    df-print: kable
+
+

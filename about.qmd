@@ -1,0 +1,20 @@
+---
+title: "About"
+---
+
+### What are Community Engaged Statistics and Data Science courses?
+
+Courses that use/build statistics and data science skills to co-create sustainable solutions to community-identified questions through partnerships with community members & organizations.
+
+### Who are we?
+
+::: {.people layout-ncol=2}
+![[Dr. Claire Kelling, Carleton College](https://www.clairekelling.com/)](imgs/headshots/claire_kelling.png)
+
+![[Dr. Emily Robinson, CalPoly](https://statistics.calpoly.edu/Emily-Robinson)](imgs/headshots/emily_robinson.jpg)
+
+![[Dr. Laurie Baker, Bates College](https://lauriebaker.rbind.io/)](imgs/headshots/laurie_baker.jpg)
+
+![[Dr. Tyler George, Cornell College](https://stats-tgeorge.github.io/personal_website/)](imgs/headshots/tyler_george.png)
+
+:::

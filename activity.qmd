@@ -1,0 +1,99 @@
+---
+title: "Activity"
+format: html
+---
+
+:::{.callout-note collapse="false"}
+
+## Working Groups
+
+#### Working group "Building Instructional Resources for Community-Engaged Data Science and Statistics"
+##### Supported by the RIOS Insitute
+
+Organizers: Claire Kelling, Carleton College, Emily Robinson, CalPoly, Laurie Baker, Bates College, Tyler George, Cornell College
+
+Members: ADD
+
+
+#### Community of Practice
+##### Sponsored by the American Statistical Association (ASA)
+
+Organizer: Dr. Claire Kelling, Carleton College
+
+Members: Emily Robinson, Laurie Baker, Tyler George, ADD MORE
+
+:::
+
+
+:::{.callout-note collapse="false"}
+
+## Talks and Workshops
+
+### Joint Statistical Meetings
+#### Boston, MA, August, 2026
+
+Session included speakers 
+
+##### Chair: Dr. Laurie Baker, Bates College
+
+
+##### Speakers
+  - Dr. Ming-Wen An, Vassar College, "Collaborating with the Community in a Statistics Capstone Course"
+  - Dr. Alice Paul, Brown University, "Driving Insight: Bringing Transit Analytics Into the Classroom" 
+  - Dr. Brianna Heggeseth, Macalaster College, "Data & Society: Early Exposure to the Real World of Data through Community Partners"
+  - Dr. Phil Yates, DePaul University, "The Trials & Tribulations of the Metropolitan Chicago Data-Science Corps (MCDC)"
+
+##### Organizers: 
+  - Dr. Claire Kelling, Carleton College
+  - Dr. Emily Robinson, CalPoly
+  - Dr. Tyler George, Cornell College
+
+
+### ICOTS 2026
+#### Brisbane, Australia, July, 2026
+
+##### Speakers
+
+  - Dr. Claire Kelling, Carleton College
+  - Dr. Emily Robinson, CalPoly
+  - Dr. Tyler George, Cornell College
+  
+Talk: <https://www.menti.com/als1yu5z8bx5>
+
+Paper: Accepted
+
+### eCOTS 2026
+#### Online Breakout Session, June, 2026
+
+##### Speakers
+  - Dr. Laurie Baker, Bates College
+  - Dr. Claire Kelling, Carleton College
+  - Dr. Emily Robinson, CalPoly
+  - Dr. Tyler George, Cornell College
+  
+Link: <https://www.menti.com/al8h2ygmdn1f>
+
+Materials: <https://docs.google.com/document/d/15M3lsZ_rhm6zXKBhhfsUg2VxIe3IDJ6wwlCIUH1j3tQ/copy>
+
+:::
+
+
+
+:::{.callout-note collapse="true"}
+
+## Grants
+
+"Building Instructional Resources for Community-Engaged Data Science and Statistics", Funded by the Institute for a Racially Just, Inclusive, and Open STEM Education ([RIOS](https://qubeshub.org/community/groups/rios/about) Institute), \$4,000.
+
+
+:::
+
+
+
+:::{.callout-note collapse="true"}
+
+## Publications
+
+ICOTS 2026, TBD
+
+:::

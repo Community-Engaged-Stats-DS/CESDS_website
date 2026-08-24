@@ -1,0 +1,83 @@
+meta:
+  name: Community-Engaged Statistics and Data Science
+
+color:
+  palette:
+    # Interface neutrals
+    paper: "#FDFBF6"
+    sand: "#F1E9DC"
+    rule: "#E4DACA"
+    ink: "#2A2622"
+    stone: "#6B6058"
+    # Okabe-Ito data colors
+    blue: "#0072B2"
+    green: "#009E73"
+    vermillion: "#D55E00"
+    purple: "#CC79A7"
+    orange: "#E69F00"
+    skyblue: "#56B4E9"
+    yellow: "#F0E442"
+
+  background: paper
+  foreground: ink
+  primary: blue
+  secondary: stone
+  tertiary: sand
+  success: green
+  info: skyblue
+  warning: orange
+  danger: vermillion
+  light: sand
+  dark: ink
+
+typography:
+  fonts:
+    - family: Newsreader
+      source: google
+      weight: [400, 500, 600]
+      style: [normal, italic]
+    - family: Public Sans
+      source: google
+      weight: [400, 500, 600, 700]
+    - family: IBM Plex Mono
+      source: google
+      weight: [400, 500]
+
+  base:
+    family: Newsreader
+    size: 1.05rem
+    line-height: 1.7
+
+  headings:
+    family: Public Sans
+    weight: 600
+    line-height: 1.25
+    color: ink
+
+  monospace:
+    family: IBM Plex Mono
+    size: 0.86em
+
+  monospace-inline:
+    color: vermillion
+    background-color: sand
+
+  monospace-block:
+    background-color: "#FCF7EE"
+    line-height: 1.5
+
+  link:
+    color: blue
+    decoration: underline
+
+# Uncomment once you have artwork. `small` also becomes the browser-tab favicon.
+# logo:
+#   images:
+#     mark:
+#       path: assets/logo-mark.svg
+#       alt: "Community-engaged statistics and data science"
+#     wordmark:
+#       path: assets/logo-wordmark.svg
+#       alt: "Community-engaged statistics and data science"
+#   small: mark
+#   medium: wordmark
