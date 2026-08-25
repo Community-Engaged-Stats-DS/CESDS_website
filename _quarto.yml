@@ -33,7 +33,7 @@ website:
         text: About
       - href: activity.qmd
         text: Activity
-      - href: book.qmd
+      - href: https://community-engaged-stats-ds.github.io/CESDS_handbook/
         text: Handbook
       - icon: github
         href: https://github.com/Community-Engaged-Stats-DS/CESDS_website
