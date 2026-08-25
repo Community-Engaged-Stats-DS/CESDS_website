@@ -94,6 +94,6 @@ Materials: <https://docs.google.com/document/d/15M3lsZ_rhm6zXKBhhfsUg2VxIe3IDJ6w
 
 ## Publications
 
-ICOTS 2026, TBD
+Claire Kelling, Tyler George, Laurie Baker, and Emily Robinson, "Tips for Developing and Teaching Community-Engaged Statistics and Data Science Courses," ICOTS 2026, Accepted
 
 :::
