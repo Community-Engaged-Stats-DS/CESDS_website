@@ -21,7 +21,7 @@ Courses that use/build statistics and data science skills to co-create sustainab
 ::: {.g-col-12 .g-col-md-6}
 ![](imgs/headshots/emily_robinson.jpg){fig-alt="Dr. Emily Robinson"}
 
-{{< fa user >}} **[Dr. Emily Robinson](https://statistics.calpoly.edu/Emily-Robinson)**  
+{{< fa user >}} **[Dr. Emily A. Robinson](https://statistics.calpoly.edu/Emily-Robinson)**  
 {{< fa building-columns >}} Cal Poly  
 {{< fa envelope >}} [erobin17@calpoly.edu](mailto:erobin17@calpoly.edu)
 :::
@@ -42,4 +42,46 @@ Courses that use/build statistics and data science skills to co-create sustainab
 {{< fa envelope >}} [tgeorge@cornellcollege.edu](mailto:tgeorge@cornellcollege.edu)
 :::
 
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/stacy_deruiter.jpeg){fig-alt="Dr. Stacy DeRuiter"}
+
+{{< fa user >}} **[Dr. Stacy DeRuiter](https://sldr.netlify.app/)**  
+{{< fa building-columns >}} Calvin University
+:::
+
+
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/rori_rohlfs.jpeg){fig-alt="Dr. Rori Rohlfs"}
+
+{{< fa user >}} **Dr. Rori Rohlfs**  
+{{< fa building-columns >}} Oregon State University
+:::
+
+
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/ming-wen_an.jpg){fig-alt="Dr. Ming-Wen An"}
+
+{{< fa user >}} **[Dr. Ming-Wen An](https://pages.vassar.edu/mian/)**  
+{{< fa building-columns >}} Vassar College
+:::
+
+
+
+
+
+
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/karen_benway.jpg){fig-alt="Dr. Karen Benway"}
+
+{{< fa user >}} **Dr. Karen Benway**  
+{{< fa building-columns >}} University of Vermont
+:::
+
+
+::: {.g-col-12 .g-col-md-6}
+![](imgs/headshots/gretchen_martinet.jpg){fig-alt="Dr. Gretchen Martinet"}
+
+{{< fa user >}} **Dr. Gretchen Martinet**  
+{{< fa building-columns >}} University of Virginia
+:::
 :::
